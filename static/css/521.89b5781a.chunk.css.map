@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/521.89b5781a.chunk.css","mappings":"AAAA,WACE,YAAa,CACb,cACF,CAEA,WAEE,iBAAkB,CADlB,WAEF,CAEA,UACE,aACF","sources":["components/Cast/Cast.css"],"sourcesContent":[".actorList {\n  display: flex;\n  flex-wrap: wrap;\n}\n\n.actorItem {\n  width: 150px;\n  text-align: center;\n}\n\n.actorImg {\n  margin: 0 auto;\n}\n"],"names":[],"sourceRoot":""}
