@@ -1,0 +1,22 @@
+.movieList {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movieItem > a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: inherit;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    transition: all 300ms linear
+}
+
+
+.movieItem > a:hover {
+    transform: scale(1.1);
+    border: 2px solid black;
+}

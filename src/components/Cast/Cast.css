@@ -1,0 +1,13 @@
+.actorList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actorItem {
+  width: 150px;
+  text-align: center;
+}
+
+.actorImg {
+  margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+
+.containerMain {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    border-bottom: 2px solid rgb(96, 95, 95);
+}
+
+.details {
+    padding: 20px;
+}

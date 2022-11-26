@@ -1,0 +1,33 @@
+.searchForm {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    
+}
+.searchInput {
+    padding: 12px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+}
+
+.searchInput:focus {
+    border: 2px solid black;
+}
+
+.searchBtn {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.searchBtn:focus, .searchBtn:hover {
+     color: black;
+  border: 2px solid black;
+  background: white;
+  transition: all 500ms ease-out;
+}
