@@ -1,46 +1,68 @@
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 16px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .header {
-    padding: 20px 0;
-    margin-bottom: 16px;
-    border-bottom: 2px solid rgb(0, 0, 0);
-    animation: neon 2s infinite;
+  padding: 20px 0;
+  margin-bottom: 16px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  animation: neon 100s infinite;
 }
 
 @keyframes neon {
   0% {
-    box-shadow: 0px 5px 5px rgba(0, 38, 0, 0.679);
+    box-shadow: 0px 5px 5px rgba(0, 255, 0, 0.3);
+  }
+  10% {
+    box-shadow: 0px 10px 10px rgba(0, 255, 0, 0.3);
+  }
+  20% {
+    box-shadow: 0px 5px 5px rgba(230, 0, 255, 0.3);
+  }
+  30% {
+    box-shadow: 0px 10px 10px rgba(230, 0, 255, 0.3);
+  }
+  40% {
+    box-shadow: 0px 5px 5px rgba(255, 0, 0, 0.3);
   }
   50% {
-    box-shadow: 0px 10px 10px rgba(0, 38, 0, 0.679);
+    box-shadow: 0px 10px 10px rgba(255, 0, 0, 0.3);
+  }
+  60% {
+    box-shadow: 0px 10px 10px rgba(0, 247, 255, 0.3);
+  }
+  70% {
+    box-shadow: 0px 5px 5px rgba(0, 247, 255, 0.3);
+  }
+  80% {
+    box-shadow: 0px 10px 10px rgba(255, 234, 0, 0.3);
+  }
+  90% {
+    box-shadow: 0px 5px 5px rgba(255, 234, 0, 0.3);
   }
   100% {
-    box-shadow: 0px 5px 5px rgba(0, 38, 0, 0.679);
+    box-shadow: 0px 5px 5px rgba(0, 255, 0, 0.3);
   }
 }
 
-
 .navigation {
-    display: flex;
-    gap: 30px;
-    align-items: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
   justify-content: space-around;
 }
 .navLink {
-
-    padding: 15px 25px;
-    border-radius: 4px;
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    background: black;
-    border: 2px solid white;
-    animation: gradient 15s ease infinite;
-    display: inline-block;
+  padding: 15px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  background: black;
+  border: 2px solid white;
+  animation: gradient 15s ease infinite;
+  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
@@ -53,15 +75,13 @@
   transition-timing-function: ease-out;
 }
 
-
-
-.navLink:hover, .navLink:focus, .navLink:active{
-     -webkit-transform: translateY(10px);
+.navLink:hover,
+.navLink:focus,
+.navLink:active {
+  -webkit-transform: translateY(10px);
   transform: translateY(10px);
   color: black;
   border: 2px solid black;
   background: white;
   transition: all 500ms ease-out;
-
 }
-
